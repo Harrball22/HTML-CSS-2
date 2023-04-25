@@ -1,0 +1,35 @@
+.top-box {
+    position: fixed;
+    top: 0px;
+    height: 200px;
+    width: 100%;
+    z-index: 3;
+    background-color: rgb(50, 50, 50);
+}
+
+.bottom-box {
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(28, 28, 28);
+}
+
+.left-box {
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 200px;
+    z-index: 2;
+    background-color: lightgray;
+}
+
+.right-box {
+    position: fixed;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    z-index: 2;
+    background-color: lightgray;
+}
